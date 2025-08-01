@@ -7,6 +7,8 @@ extern "C"
 }
 #endif
 
+uint8_t test;
+
 uint8_t Add(uint8_t a, uint8_t b)
 {
     return a + b;
