@@ -87,7 +87,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        make all
+        make
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
