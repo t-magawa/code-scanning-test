@@ -3,6 +3,9 @@
 
 int main(void)
 {
+    char password[5];
+    // read and verify password
+    memset(password, 0, 5);
     return 0;
 }
 
