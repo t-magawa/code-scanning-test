@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -O2
 TARGET = test
-OBJS = add.o test.o
+OBJS = test.o
 
 $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
